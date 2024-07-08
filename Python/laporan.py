@@ -1,0 +1,20 @@
+a = 41
+f = 38
+g = 34
+h = 34
+i = 32
+b = 52
+result1 = a / b * 100
+result2 = f / b * 100
+result3 = g / b * 100
+result4 = h / b * 100
+result5 = i / b * 100
+print(f"A = {result1}%")
+print(f"B = {result2}%")
+print(f"C = {result3}%")
+print(f"D = {result4}%")
+print(f"E = {result5}%")
+
+result6 = result1 + result2 + result3 + result4 + result5
+hasil = result6 / 5
+print(f"Rata - Rata = {hasil}%")
